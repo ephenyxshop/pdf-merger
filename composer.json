@@ -1,0 +1,20 @@
+{
+    "name": "ephenyxshop/pdf-merger",
+    "description": "PDF File Merger for PHP7 and 8",
+    "license": "MIT",
+    "require": {
+        "setasign/fpdi": "^2.2",
+        "setasign/fpdf": "^1.8"
+    },
+    "authors": [
+        {
+            "name": "Jeff Hunger",
+            "email": "jeff@ephenyx.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/PDFMerger/PDFMerger.php"
+        ]
+    }
+}
